@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Acercade">
+    <include android:id="@+id/miToolbar"
+        layout="@layout/actionbar"/>
+    <TextView
+        android:id="@+id/text_nmbre_biogra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="biografia del desarrollador"
+        android:textSize="35sp">
+    </TextView>
+    <TextView
+        android:id="@+id/text_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre:  Rene Alberto Mamani Soto"
+        android:textSize="20sp">
+    </TextView>
+    <TextView
+        android:id="@+id/text_nacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origen: Nacido en cochabamba bolivia el 7 de diciembre de 1990"
+        android:textSize="20sp">
+    </TextView>
+
+</LinearLayout>
